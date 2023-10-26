@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BliggBlog</title>
+</head>
+<body>
+
+
+<h1 th:text="#{blog.title}">Welcome to Blig Blog</h1>
+<a href="/posts/add" th:text="#{blog.newpost}">Write new Blog</a>
+
+
+  <h3 th:text="${posts.title}"> </h3>
+
+  <h5 th:text="${posts.description}"> </h5>
+
+  <h5 th:text="${posts.body}"> </h5>
+  <hr>
+
+
+</body>
+</html>
